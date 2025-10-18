@@ -1,7 +1,17 @@
-// src/components/Projects/Projects.jsx - Template
+// src/components/Projects/Projects.jsx
 import './Projects.css';
+import { useState } from 'react';
+import ProjectCard from './ProjectCard';
+import portfolioData, { categories } from '../../data/portfolioData';
 
 function Projects() {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const filteredProjects =
+    selectedCategory === "All"
+      ? portfolioData
+      : portfolioData.filter((project) => project.category === selectedCategory);
+
   return (
     <section id="projects" className="projects section">
       <div className="container">
@@ -10,11 +20,25 @@ function Projects() {
           Here are some of the projects I've worked on recently.
         </p>
 
-        {/* TODO: นักศึกษาเพิ่ม project list ที่นี่ */}
+        {/* Category Filter */}
+        <div className="projects-filter">
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              className={`filter-btn ${selectedCategory === cat ? "active" : ""
+                }`}
+              onClick={() => setSelectedCategory(cat)}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+
+        {/* Projects Grid */}
         <div className="projects-grid">
-          <div className="project-placeholder">
-            <p>Add your projects here</p>
-          </div>
+          {filteredProjects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
         </div>
       </div>
     </section>
