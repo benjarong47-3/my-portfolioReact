@@ -54,12 +54,50 @@
     ไปที่ `http://localhost:5173` (หรือ Port ที่ Vite แสดงใน Terminal)
 
 ## 📂 โครงสร้างโปรเจค (Project Structure)
-
+```text
+├── src
+│   ├── About
+│   │   ├── About.css
+│   │   └── About.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Contact
+│   │   ├── Contact.css
+│   │   └── Contact.jsx
+│   ├── Header
+│   │   ├── Header.css
+│   │   └── Header.jsx
+│   ├── Projects
+│   │   ├── ProjectCard.jsx
+│   │   ├── Projects.css
+│   │   └── Projects.jsx
+│   ├── ThemeToggle
+│   │   ├── ThemeToggle.css
+│   │   └── ThemeToggle.jsx
+│   ├── assets
+│   │   ├── images
+│   │   │   ├── Chatbot.png
+│   │   │   ├── Mobile_Finance_Tracker.png
+│   │   │   ├── Plant_ai.png
+│   │   │   ├── To_do_list.png
+│   │   │   ├── Weatherapp.png
+│   │   │   └── profile1.jpg
+│   │   └── react.svg
+│   ├── contexts
+│   │   └── ThemeContext.jsx
+│   ├── data
+│   │   └── portfolioData.js
+│   ├── index.css
+│   ├── main.jsx
+│   └── styles
+│       └── global.css
+└── vite.config.js
+```
 
 ## 📬 การติดต่อ (Contact)
 
 หากมีคำถาม ข้อเสนอแนะ หรือต้องการร่วมงาน สามารถติดต่อเราได้ที่:
 
-* **ิBenjarong Kanthajai**
+* **Benjarong Kanthajai**
 * **Email:** `bankkanthajai@gmail.com`
 * หรือส่งข้อความผ่านแบบฟอร์ม "Contact Me" บนเว็บไซต์
