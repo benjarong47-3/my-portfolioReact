@@ -60,6 +60,6 @@
 
 หากมีคำถาม ข้อเสนอแนะ หรือต้องการร่วมงาน สามารถติดต่อเราได้ที่:
 
-* **Sittinon Yongyutwichai (Non)**
+* **ิBenjarong Kanthajai**
 * **Email:** `bankkanthajai@gmail.com`
 * หรือส่งข้อความผ่านแบบฟอร์ม "Contact Me" บนเว็บไซต์
