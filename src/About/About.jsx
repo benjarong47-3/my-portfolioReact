@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Code, Palette, Zap, Heart } from 'lucide-react';
 import './About.css';
-import profileImg from '../../assets/profile1.png';
+import profileImg from '../assets/react.svg';
 
 function About() {
     const skills = [

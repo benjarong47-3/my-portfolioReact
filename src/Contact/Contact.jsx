@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Contact.css";
-import { contactInfo, socialLinks } from "../../data/portfolioData";
+import { contactInfo, socialLinks } from "../data/portfolioData";
 
 function Contact() {
     const [formData, setFormData] = useState({

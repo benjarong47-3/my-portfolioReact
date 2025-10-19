@@ -2,7 +2,7 @@
 import './Projects.css';
 import { useState } from 'react';
 import ProjectCard from './ProjectCard';
-import portfolioData, { categories } from '../../data/portfolioData';
+import portfolioData, { categories } from '../data/portfolioData';
 
 function Projects() {
     const [selectedCategory, setSelectedCategory] = useState("All");
